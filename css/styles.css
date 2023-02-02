@@ -20,7 +20,7 @@ body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
 
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
@@ -52,9 +52,9 @@ body {
     font-weight: 500;
     text-decoration: none;
 }
-.site-nav .link:active {
-    color: var(--active-color);
-}
+.site-nav .link:active,
+.site-nav .link:focus,
+.site-nav .link:hover,
 .site-nav .link.current {
     color: var(--active-color);
 }
@@ -65,6 +65,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
+    font-style: normal;
 }
 .contacts .link:active,
 .contacts .link:focus,
