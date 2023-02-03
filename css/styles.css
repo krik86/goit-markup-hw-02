@@ -38,6 +38,7 @@ body {
     font-size: 18px;
     line-height: 1.33;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .logo-web {
     color: var(--logo-primary-color);
